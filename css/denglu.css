@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header{
+	
+	min-width: 1200px;
+	background: #fff;
+	display: block;
+}
+.top{
+	height: 76px;
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+.l1{
+	top: 15px;
+	left: 0;
+	width: 231px;
+	height: 52px;
+	position: absolute;
+}
+.top1{
+	float: left;
+	display: inline;
+}
+.top1 a{
+	color: #5e5e5e;
+	text-decoration: none;
+}
+.search{
+	top: 25px;
+	right: 0;
+	width: 237px;
+	height: 35px;
+	position: absolute;
+}
+form{
+	display: block;
+}
+input{
+	font-size: 100%;
+}
+header .search{
+	top: 25px;
+	right: 0;
+	width: 237px;
+	height: 35px;
+	float: right;
+	margin-top: 30px;
+}
+.search-area .txt{
+	border: 0 none;
+	outline: 0 none;
+	background: #efefef;
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	margin: 2px 0 0 10px;
+	color: #d4d4d4;
+}
+.search-area{
+	display: block;
+	width: 200px;
+	height: 35px;
+	background: #efefef;
+	margin-top: -30px;
+}
+header .search .smt{
+
+	border: 0 none;
+	cursor: pointer;
+	height: 35px;
+	width: 37px;
+	float: right;
+	margin-top: -35px;
+}
+header .search .smt{
+	background-position: right -65px;
+	display: block;
+	background-image: url(../img/header-total.gif);
+	background-repeat: no-repeat;
+}
+.main{
+	width: 980px;
+	margin: 0 auto;
+	display: block;
+}
+.m1{
+	width: 980px;
+	margin: 20px auto 0;
+}
+.mid{
+	width: 978px;
+	position: relative;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #E2E2E2;
+	padding-bottom: 50px;
+}
+.title{
+	width: 878px;
+	padding: 20px 50px;
+	border-bottom: #E2E2E2 solid 1px;
+	overflow: hidden;
+}
+.main .title .hd{
+	color: #000000;
+	font-size: 16px;
+	font-family: "微软雅黑","宋体";
+	margin-right: 10px;
+	background: url(../img/hd-bg.gif) no-repeat center right;
+	padding-right: 20px;
+	float: left; 
+}
+.main .title .tips{
+	color: #666666;
+	float: left;
+	margin-top: 3px;
+	font-size: 12px;
+}
+.main .other{
+	float: right;
+	font-size: 14px;
+	color: #999;
+}
+.main .other a{
+	color: #0289cd;
+	text-decoration: none;
+	cursor:  pointer;
+}
+.center{
+	width: 788px;
+	padding: 30px 90px 0 100px;
+	height: auto;
+	overflow: hidden;
+}
+.center1{
+	width: 390px;
+}
+.center1 form{
+	color: #5E5E5E;
+}
+.center .center1 li{
+	padding-bottom: 25px;
+	overflow: visible;
+	height: auto;
+	position: relative;
+	clear: both;
+}
+.normal{
+	width: 80px;
+	text-align: right;
+	float: left;
+	display: inline;
+	height: 20px;
+	margin-top:8px;
+	font-size: 14px;
+}
+.normal-input{
+	margin-bottom: 30px;
+	color: #666;
+	padding: 12px 0px 12px 10px;
+	border: 1px solid #C6C6C6;
+	height: 14px;
+	line-height: 14px;
+	width: 250px;
+	float: left;
+	font-size: 12px;
+}
+.error-box{
+	margin-left: 10px;
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	color: #666;
+	float: left;
+	overflow: hidden;
+}
+.chex-d{
+	padding-bottom: 8px;
+}
+.chex{
+	width: 280px;
+	float: left;
+}
+.chex span{
+	float: left;
+	color: #5e5e5e;
+	font-size: 12px;
+}
+.chex .ck{
+	vertical-align:  -2px;
+	margin-right:5px ;
+	font-size: 12px;
+}
+.chex .forget{
+	float: right;
+	color: #999;
+	text-decoration: none;
+	font-size: 12px;
+}
+.btn{
+	float: left;
+	width: 260px;
+}
+.btn .smt-o{
+	background-position: 0 0;
+	color: #fff;
+}
+.btn .sub{
+	width: 260px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #000;
+	border: none;
+	margin-bottom: 30px;
+}
+.union-title{
+	height: 16px;
+	line-height: 16px;
+	position: relative;
+}
+.union-title span{
+	color: #333;
+	font-size: 12px;
+}
+.union-title em{
+	width: 140px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	background: #e2e2e2;
+	margin-right: 50px;
+}
+.third-box{
+	margin-top: 10px;
+}
+.third-box .sina{
+	background-position: 0 -169px;
+	margin-top: -2px;
+}
+.third-box a{
+	float: left;
+	width: 24px;
+	height: 24px;
+	background: url(../img/new-login.gif) no-repeat;
+	margin-top: 10px;
+	display: inline;
+}
+.foot-tips{
+	text-align: center;
+	margin: 40px auto 40px;
+	width: 900px;
+	color: #5E5E5E;
+	font-size: 12px;
+}
+.foot-tips a{
+	color: #5e5e5e;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录-WDYWT</title>
+		<link rel="stylesheet" type="text/css" href="../css/denglu.css"/>
+		<link rel="shortcut icon" type="text/css" href="img/favicon.ico"/>
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<div class="l1">	
+				 <div class="top1">
+				   <a class="juan-logo" href="http://www.wdywt.cn/" title="WDYWT官网">
+					<img src="../img/5665094a41041.png"/>
+				   </a>
+				</div>
+				</div>
+			
+		
+		
+		<div class="search">
+              	<form name="search" action="http://www.wdywt.cn/" method="get" id="search">
+              		<input type="hidden" name="m" value="search">
+              		<input type="hidden" name="a" value="index">
+              		<span class="search-area fl">
+              			<input x-webkit-speech="" name="k" id="k" autocomplete="off" onblur="this.value==''?this.value=this.title:null" onfocus="this.value==this.title?this.value='':null" title="懒得找了，我搜..." value="懒得找了，我搜..." class="txt">
+              		</span>
+              		<input type="submit" id="k" value="" class="smt fr" onclick="document.getElementById('k').value=encodeURI(document.getElementById('k').value);getId('search').submit()">
+              	</form>
+              </div>
+		</div>
+		</header>
+		
+		<div class="main">
+			<div class="m1">
+				<div class="mid">
+					<div class="title">
+						<span class="hd">老用户登录</span>
+						<span class="tips">尊敬的用户，欢迎您回来！</span>
+						<p class="other">还没有账号，
+							<a target="_blank" href="/user/register">立即去注册</a>
+						</p>
+					</div>
+					
+					
+					<div class="center">
+						<div class="center1">
+							<form action="/user/login" name="login_form" method="post" id="form">
+								<ul>
+									<li class="active">
+										<div class="user" style="width: 508px;">
+											<label class="normal">账号：</label>
+											<input type="text" class="normal-input" placeholder="用户名/邮箱" name="username" id="txt">
+											<span id="user" style="font-size: 11px;"></span><br><br>
+										</div>
+										<div class="error-box" id="ckusername"></div>
+									</li>
+									<li>
+										<div class="user" style="width: 392px; font-size: 11px;">
+											<label class="normal">密码：</label>
+							            
+											<input type="password" class="normal-input" placeholder="请输入密码" name="password" autocomplete="off" id="pass">
+											<span id="pass1"></span>
+										</div>
+										<div class="error-box" id="password"></div>
+									</li>
+									<li class="chex-d">
+										<label class="normal"></label>
+										<div class="chex">
+											<span>
+												<label>
+													<input type="checkbox" class="ck" name="remember" checked="checked" value="1">两周内免登录
+												</label>
+											</span>
+											<a class="forget " href="/forget/index">忘记密码？</a>
+										</div>
+									</li>
+									<li>
+										<label class="normal"></label>
+										<div class="btn">
+											<input type="hidden" name="from" value="">
+											<input type="hidden" name="action" id="login" value="login">
+											<input type="submit" name="sub" class="sub smt-o" value="登录" autocomplete="off">
+										</div>
+									</li>
+									<li class="third-login">
+										<label class="normal"></label>
+										<div class="union-login">
+											<p class="union-title">
+											<span>合作网站账号登陆</span>
+											<em class="line"></em>
+										    </p>
+										<div class="third-box">
+											<a href="/oauth/index/mod/sina" class="sina"></a>
+										</div>
+									 </div>
+								    </li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="foot-tips">
+				WDYWT官网
+				<a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">粤ICP备13044948号-1</a>   
+				Copyright © 2010 - 2014 http://www.wdywt.cn/ All Rights Reserved
+			</p>
+		</div>
+		
+		
+		<script src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../js/denglu.js"></script>
+	</body>
+</html>
